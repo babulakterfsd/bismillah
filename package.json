@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A quick starter pack for any kinda front-end project which uses webpack, babel, html, css , bootstrap, font-awesome,webfonts and all other related tools.",
   "main": "index.js",
+  "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,16 @@
   "dependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
-    "@babel/preset-react": "^7.12.10"
+    "@babel/preset-react": "^7.12.10",
+    "modernizr": "^3.11.4",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "mini-css-extract-plugin": "^1.3.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
   }
 }
