@@ -1,0 +1,25 @@
+{
+  "name": "bismillah",
+  "version": "1.0.0",
+  "description": "A quick starter pack for any kinda front-end project which uses webpack, babel, html, css , bootstrap, font-awesome,webfonts and all other related tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babulakterfsd/bismillah.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babulakterfsd/bismillah/issues"
+  },
+  "homepage": "https://github.com/babulakterfsd/bismillah#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10"
+  }
+}

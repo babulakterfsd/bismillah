@@ -1,0 +1,60 @@
+1. prothome ekta folder banate hobe. tarpor otar moddhe 'npm init -y' command er maddhome npm
+   initialize korte hobe
+
+
+2. tarpor oi root directory tei ei command ta dite hobe 
+   'npm i @babel/preset-env @babel/core @babel/preset-react'
+
+
+3. tarpor root directory te ekta file banate hobe .babelrc naame. 
+   ekhon setake edit kore tar moddhe likhte hobe :
+
+     
+      {
+  "presets": ["@babel/preset-env","@babel/preset-react"]
+}
+
+
+
+4. ekhon webpack install korar pala.
+   root directory te command dite hobe 'npm install --save-dev webpack webpack-cli babel-loader'
+
+
+
+5.ekhon root e 'webpack.config.js' naame ekta file create kore tar moddhe paste korte hobe:
+
+   const path = require('path');
+
+   module.exports = {
+    entry: './src/js/index.js',
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundle.js'
+    },
+
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                use: {
+                    loader: 'babel-loader'
+                }
+            }
+        ]
+    }
+
+}
+
+
+
+
+6. ekhon package.json file er "scripts" property er vitore ja ache
+   shob muche dite hobe, likhte hobe :
+
+      "dev": "webpack --mode development",
+      "build": "webpack --mode production"
+
+ 
+
+
+7. 
