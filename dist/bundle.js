@@ -16,7 +16,17 @@
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! normalize.css/normalize.css */ \"./node_modules/normalize.css/normalize.css\");\n/* harmony import */ var _css_mediaquery_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/mediaquery.css */ \"./src/css/mediaquery.css\");\n// imported css\n\n //imported js\n//mycode starts from here\n\n'use strict';\n\n//# sourceURL=webpack://bismillah/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! normalize.css/normalize.css */ \"./node_modules/normalize.css/normalize.css\");\n/* harmony import */ var _css_mediaquery_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../css/mediaquery.css */ \"./src/css/mediaquery.css\");\n/* harmony import */ var _test_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./test.js */ \"./src/js/test.js\");\n// imported css\n\n //imported js\n\n //mycode starts from here\n\n'use strict';\n\nconsole.log(\"Hello \".concat(_test_js__WEBPACK_IMPORTED_MODULE_2__.default));\n\n//# sourceURL=webpack://bismillah/./src/js/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/test.js":
+/*!************************!*\
+  !*** ./src/js/test.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n\n\nvar name = \"Bangladesh\";\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (name);\n\n//# sourceURL=webpack://bismillah/./src/js/test.js?");
 
 /***/ }),
 
@@ -66,6 +76,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop)
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
