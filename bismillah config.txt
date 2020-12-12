@@ -47,7 +47,8 @@
 
 
 
-6. css loader, style loader, minicssextractorplugin, html loader 
+6. shobar prothome ekhon htmlwebpackplugin install dite hobe ebong tarpor
+   css loader, style loader, minicssextractorplugin, html loader 
    soho proyojoniyo loader ebong plugin
    gulo webpack config file e add/require korte hobe
 
