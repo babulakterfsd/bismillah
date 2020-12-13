@@ -118,8 +118,15 @@ textarea {
 
    /* --------- body style -------- */
 
+.jumbotron {
+    color: brown;
+    font-family: 'Langar', cursive;
+}
 
-
+img {
+    max-width: 100%;
+    height: 100vh;
+}
 
 
 
